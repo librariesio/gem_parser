@@ -6,7 +6,7 @@ class GemParser
   end
 
   def to_json
-    Oj.dump(dependencies)
+    Oj.dump(dependencies) unless contents.nil?
   end
 
   def dependencies
