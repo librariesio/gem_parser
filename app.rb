@@ -6,18 +6,19 @@ require_relative 'lib/gem_parser'
 
 class RubyDepParser < Sinatra::Base
   use Rack::Deflater
-  get '/' do
-    content_type :json
-    '{}'
+
+  before do
+    request.body.rewind
+    @request_payload = request.body.read
   end
 
   post '/gemspec' do
     content_type :json
-    GemParser.new(:gemspec, params[:contents]).to_json
+    GemParser.new(:gemspec, @request_payload).to_json
   end
 
   post '/gemfile' do
     content_type :json
-    GemParser.new(:gemfile, params[:contents]).to_json
+    GemParser.new(:gemfile, @request_payload).to_json
   end
 end
