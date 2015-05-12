@@ -6,7 +6,13 @@ class GemParser
   end
 
   def to_json
-    Oj.dump(parse.dependencies)
+    Oj.dump(dependencies)
+  end
+
+  def dependencies
+    parse.dependencies.map do |dep|
+      { dep.name => dep.requirement.to_s }
+    end
   end
 
   def parse
