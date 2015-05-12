@@ -10,8 +10,8 @@ class GemParser
   end
 
   def dependencies
-    parse.dependencies.map do |dep|
-      { dep.name => dep.requirement.to_s }
+    parse.dependencies.inject({}) do |deps, dep|
+      deps.merge!(dep.name => dep.requirement.to_s)
     end
   end
 
