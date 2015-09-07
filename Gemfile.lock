@@ -9,6 +9,7 @@ GEM
   specs:
     bond (0.5.1)
     kgio (2.9.3)
+    multi_json (1.11.2)
     oj (2.12.7)
     rack (1.6.1)
     rack-protection (1.5.3)
@@ -45,7 +46,11 @@ PLATFORMS
 DEPENDENCIES
   bundler
   gemnasium-parser!
+  multi_json
   oj
   sinatra
   tux
   unicorn
+
+BUNDLED WITH
+   1.10.6
