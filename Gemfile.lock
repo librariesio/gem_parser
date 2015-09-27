@@ -8,14 +8,14 @@ GEM
   remote: https://rubygems.org/
   specs:
     bond (0.5.1)
-    kgio (2.9.3)
-    oj (2.12.7)
-    rack (1.6.1)
+    kgio (2.10.0)
+    oj (2.12.14)
+    rack (1.6.4)
     rack-protection (1.5.3)
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
-    raindrops (0.13.0)
+    raindrops (0.15.0)
     ripl (0.7.1)
       bond (~> 0.5.1)
     ripl-multi_line (0.3.1)
