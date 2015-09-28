@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/enilsen16/gemnasium-parser.git
+  remote: git://github.com/librariesio/gemnasium-parser.git
   revision: 63e0f14d6a36cf1d39e9959a3ab951911daaa466
   specs:
     gemnasium-parser (0.1.10)
