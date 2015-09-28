@@ -26,4 +26,8 @@ class GemParser
   def self.gemfile(contents)
     new(:gemfile, contents)
   end
+
+  def self.podfile(contents)
+    new(:podfile, contents)
+  end
 end

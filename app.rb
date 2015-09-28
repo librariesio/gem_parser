@@ -22,4 +22,9 @@ class RubyDepParser < Sinatra::Base
     content_type :json
     GemParser.new(:gemfile, params[:body]).to_json
   end
+
+  post '/podfile' do
+    content_type :json
+    GemParser.new(:podfile, params[:body]).to_json
+  end
 end
