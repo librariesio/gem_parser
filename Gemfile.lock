@@ -8,6 +8,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     kgio (2.10.0)
+    minitest (5.8.1)
     oj (2.12.14)
     rack (1.6.4)
     rack-protection (1.5.3)
@@ -31,7 +32,9 @@ PLATFORMS
 DEPENDENCIES
   bundler
   gemnasium-parser!
+  minitest
   oj
+  rack-test
   sinatra
   unicorn
 
