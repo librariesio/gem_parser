@@ -6,12 +6,17 @@ class GemParser
   end
 
   def to_json
-    Oj.dump(dependencies) unless contents.nil?
+    Oj.dump(dependencies, mode: :compat) unless contents.nil?
   end
 
   def dependencies
-    parse.dependencies.inject({}) do |deps, dep|
-      deps.merge!(dep.name => dep.requirement.to_s)
+    parse.dependencies.inject([]) do |deps, dep|
+      deps.push({
+        name: dep.name, 
+        version: dep.requirement.to_s, 
+        type: dep.type,
+        groups: dep.groups
+      })
     end
   end
 
