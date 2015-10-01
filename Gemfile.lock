@@ -16,6 +16,7 @@ GEM
     rack-test (0.6.3)
       rack (>= 1.0)
     raindrops (0.15.0)
+    rake (10.4.2)
     sinatra (1.4.6)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -35,6 +36,7 @@ DEPENDENCIES
   minitest
   oj
   rack-test
+  rake
   sinatra
   unicorn
 
