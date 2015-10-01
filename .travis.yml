@@ -1,3 +1,8 @@
 language: ruby
 rvm:
   - 2.2.3
+
+notifications:
+  webhooks:
+    urls:
+      - https://webhooks.gitter.im/e/577f464ba5375f7f0959
