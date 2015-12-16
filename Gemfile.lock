@@ -9,7 +9,7 @@ GEM
   specs:
     kgio (2.10.0)
     minitest (5.8.3)
-    oj (2.14.0)
+    oj (2.14.1)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
@@ -41,4 +41,4 @@ DEPENDENCIES
   unicorn
 
 BUNDLED WITH
-   1.10.6
+   1.11.2
