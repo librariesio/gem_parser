@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/librariesio/gemnasium-parser.git
-  revision: 672f0938cab6d6b3825c5212003654f8c7e5a8b6
+  revision: 6df8e7cd7d0aa13e8bf6256566c5f1c0d7af7d5c
   specs:
     gemnasium-parser (0.1.10)
 
