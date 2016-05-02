@@ -1,13 +1,8 @@
-GIT
-  remote: git://github.com/librariesio/gemnasium-parser.git
-  revision: c1386115b3d1fb3a54dc4a038a7dd39427f122e6
-  specs:
-    gemnasium-parser (0.1.10)
-
 GEM
   remote: https://rubygems.org/
   specs:
     kgio (2.10.0)
+    librariesio-gem-parser (1.0.0)
     minitest (5.8.4)
     oj (2.15.0)
     rack (1.6.4)
@@ -31,7 +26,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler
-  gemnasium-parser!
+  librariesio-gem-parser
   minitest
   oj
   rack-test
