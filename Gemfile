@@ -3,7 +3,7 @@ ruby '2.3.1'
 
 gem 'bundler'
 gem 'sinatra'
-gem 'librariesio-gem-parser'
+gem 'librariesio-gem-parser', require: 'gemnasium/parser'
 gem 'oj'
 gem 'unicorn'
 
