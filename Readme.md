@@ -43,4 +43,4 @@ Over 2 different people have contributed to the project, you can see them all he
 
 ## Copyright
 
-Copyright (c) 2015 Andrew Nesbitt. See [LICENSE](https://github.com/librariesio/gem_parser/blob/master/LICENSE) for details.
+Copyright (c) 2016 Andrew Nesbitt. See [LICENSE](https://github.com/librariesio/gem_parser/blob/master/LICENSE) for details.
