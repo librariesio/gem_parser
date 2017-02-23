@@ -1,5 +1,7 @@
 # [GemParser](https://libraries.io/github/librariesio/gem_parser)
 
+:warning: This repository has been replaced with [Bibliothecary](https://github.com/librariesio/bibliothecary) and will not be updated anymore :warning:
+
 Sinatra app for extracting dependencies from `Gemfile`, `*.gemspec` and `Podfile` files for [Libraries.io](https://libraries.io) over http.
 
 It uses a [fork](https://github.com/librariesio/gemnasium-parser) of the [gemnasium-parser](https://github.com/gemnasium/gemnasium-parser) to do the heavy lifting of parsing the files.
