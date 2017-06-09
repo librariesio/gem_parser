@@ -5,7 +5,7 @@ GEM
     librariesio-gem-parser (1.0.0)
     minitest (5.10.2)
     mustermann (1.0.0)
-    oj (3.0.10)
+    oj (3.1.0)
     rack (2.0.3)
     rack-protection (2.0.0)
       rack
